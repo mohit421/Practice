@@ -1,0 +1,308 @@
+
+body{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    background-image: url("design/desktop-design.jpg");
+    background-color: #b6c1d9;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    border: 0.625rem solid #fffafa;
+    /* border: 1px solid #fffafa; */
+    width: 20%;
+    height: 31.25rem;
+    /* height: 500px; */
+    margin: 5.625rem auto;
+    /* margin: 90px auto; */
+    position: relative;
+    padding: 0 3.125rem 3.125rem;
+    /* padding: 0 50px 50px; */
+    bottom: 1.25rem;
+    /* bottom: 20px; */
+    border-radius: 0.75rem;
+    /* border-radius: 12px; */
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: 1.25rem;
+    /* border-radius: 20px; */
+    background: whitesmoke;
+    bottom: 25.8125rem;
+    /* bottom: 413px; */
+
+
+}
+
+.main-img{
+    display: block;
+    position: relative;
+    right:  3.125rem;
+    /* right: 50px; */
+    width: 24.25rem;
+    /* width: 388px; */
+    height: 11.25rem;
+    /* height: 180px; */
+    padding: 0 0 1.25rem;
+    /* padding: 0 0 20px; */
+    border-radius: 0.75rem;
+    /* border-radius: 12px; */
+}
+
+.main-description{
+    margin:auto;
+    padding: 0.625rem;
+    /* padding: 10px; */
+    line-height: 1.5;
+    width: 95%;
+    font-size: 0.8125rem;
+    /* font-size: 13px; */
+    color: #808080;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    /* font-size: 24px; */
+}
+h1,h2{
+    color: #333333;
+}
+.music-img{
+    position: absolute;   
+    margin-top: 0;
+    right: 0;
+    left: 3.875rem;
+    top: 21.375rem;
+    border-radius: 0.75rem;
+    /* left: 62px;
+    top: 342px;
+    border-radius: 12px; */
+}
+.change{
+    position: absolute;
+    top: 22.25rem;
+    /* top: 356px; */
+    left: 11.875rem;
+    /* left: 190px; */
+    right: 0;
+    bottom: 0;
+}
+.price{
+    position: absolute;
+    top: 22.9375rem;
+    /* top: 367px; */
+    left: 0;
+    right: 2.5625rem;
+    /* right: 41px; */
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: #808080;
+
+}
+
+.annual-description{
+    background: #c8cacf38;
+    border-radius: 0.75rem;
+    /* border-radius: 12px; */
+}
+
+.annual{
+    margin-top: 0;
+    padding-top: 1.25rem;
+    /* padding-top: 20px; */
+    padding-bottom: 3.75rem;
+    /* padding-bottom: 60px; */
+    margin-bottom: 0.8125rem;
+    /* margin-bottom: 13px; */
+    margin-left: 0;
+    color: #333333;
+    font-size: 1.125rem;
+    /* font-size: 18px; */
+    position: relative;
+    right: 0.875rem;
+    /* right: 14px; */
+}
+
+#btn:hover{
+    background: hsl(224, 23%, 55%);
+}
+.btn {
+    background: hsl(223, 47%, 23%);
+    background-image: -webkit-linear-gradient(top, #240fbf, #0d0dbd);
+    background-image: -moz-linear-gradient(top, #240fbf, #0d0dbd);
+    background-image: -ms-linear-gradient(top, #240fbf, #0d0dbd);
+    background-image: -o-linear-gradient(top, #240fbf, #0d0dbd);
+    background-image: linear-gradient(to bottom, #240fbf, #0d0dbd);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 0.625rem;
+    /* border-radius: 10px; */
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 0.75rem;
+    /* font-size: 12px; */
+    padding: 0.75rem 1.875rem 0.75rem 1.875rem;
+    /* padding: 12px 30px 12px 30px; */
+    text-decoration: none;
+}  
+
+div.btn a:hover {
+  background: hsl(224, 23%, 55%);
+  background-image: -webkit-linear-gradient(top, #091061, #380d4d);
+  background-image: -moz-linear-gradient(top, #091061, #380d4d);
+  background-image: -ms-linear-gradient(top, #091061, #380d4d);
+  background-image: -o-linear-gradient(top, #091061, #380d4d);
+  background-image: linear-gradient(to bottom, #091061, #380d4d);
+  text-decoration: none; 
+} 
+
+
+.cancel{
+  font-size: 0.75rem;
+  /* font-size: 12px; */
+  margin-top: 1.375rem;
+  /* margin-top: 22px; */
+  color: #808080;
+} 
+p.cancel:hover{
+    background-color:#c40000;
+}
+
+.attribution{
+    position:relative;
+    bottom: 3.125rem;
+    /* bottom:50px; */
+    
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 288px;
+    }
+    .attribution{
+        position: relative;
+        left: 0;
+        display: inline-block;
+        padding-right: 150px;
+    }
+}
+    
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 288px;
+    }
+    .attribution{
+        left: 215px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px){
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 288px;
+    }
+    a .btn{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .attribution{
+        left: 242px;
+    }
+    
+}
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 235px;
+    }
+    a .btn{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .attribution{
+        left: 436px;
+    }
+    .main-img{
+        width: 334px;
+    }
+    .annual{
+        padding-left: 13px;
+    }
+    
+    .price{
+        left: 4px;
+        right:35px;
+    }
+    .change{
+        left: 166px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px){
+    body{
+        background: url("Image/pattern-background-mobile.svg");
+    }
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 235px;
+    }
+    a .btn{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .attribution{
+        left: 444px;
+    }
+    .main-img{
+        width: 334px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    body{
+        background: url("Image/pattern-background-mobile.svg");
+        background: azure;
+    }
+    .card{
+        margin-left: 200px;
+        left: 247px;
+        width: 235px;
+    }
+    a .btn{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .attribution{
+        left: 490px;
+    }
+    .main-img{
+        width: 334px;
+    }
+    .annual{
+        font-size: 16px;
+    }
+    .price{
+        font-size: small;
+    }
+    .change{
+        left: 155px;
+        font-size: 15px;
+    }
+}
