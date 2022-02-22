@@ -1,0 +1,169 @@
+body{
+   margin:0;
+   background: hsl(220, 15%, 55%);
+   font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    height: 73vh;
+}
+
+.main-img{
+    padding: 20px 14px 7px;
+    border-radius: 27px;
+    width: 300px;
+}
+.main-text h1{
+    font-size: 23px;
+    font-weight: 700;
+}
+.main-text p{
+    font-size: 16px;
+    font-weight: 100;
+    color: hsl(212deg 2% 30%);
+}
+
+.card-item{
+    background: rgb(247, 243, 243);
+    width: 25%;
+    height: 80vh;
+    border-radius: 15px;
+}
+
+
+footer{
+    position: relative;
+    top: 200px;
+    margin-left: 56px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    right: 36px;
+}
+
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1380px){
+    .card-item{
+        width: 24%;
+        height: 66vh;
+    }
+    .main-img{
+        padding: 22px 14px 7px;
+        border-radius: 24px;
+        width: 304px;
+    }
+    .main-text h1{
+        font-size: 25px;
+    }
+    .main-text p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .card-item{
+        width: 43%;
+        height: 92vh;
+    }
+    .main-img{
+        width: 382px;
+    }
+    .main-text h1{
+        font-size: 31px;
+    }
+    .main-text p{
+        font-size: 19px;
+    }
+}
+    
+/* @media screen and (max-width: 955px) and (min-width: 768px){
+    .card-item{
+        width: 34%;
+        height: 92vh;
+    }
+    .main-img{
+        padding: 22px 14px 7px;
+        border-radius: 24px;
+        width: 287px;
+    }
+    .main-text h1{
+        font-size: 25px;
+    }
+    .main-text p{
+        font-size: 16px;
+    }
+
+} */
+
+@media only screen and (max-width: 768px) and (min-width: 425px){
+    .card-item{
+        width: 43%;
+        height: 94vh;
+    }
+    .main-img{
+        width: 295px;
+    }
+    .main-text h1{
+        font-size: 25px;
+    }
+    .main-text p{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    .card-item{
+        width: 74%;
+        height: 88vh;
+    }
+    .main-img{
+        width: 275px;
+    }
+    .main-text h1 {
+        font-size: 23px;
+
+    }
+    .main-text p {
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px){
+    .card-item{
+        width: 85%;
+        height: 93vh;
+    }
+    .main-img{
+        width: 283px;
+    }
+    .main-text h1{
+        font-size: 25px;
+
+    }
+    .main-text p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .card-item{
+        width: 81%;
+        height:74vh;
+    }
+    .main-img{
+        width: 232px;
+    }
+    .main-text p{
+        font-size: 12px;
+    }
+    .main-text h1{
+        font-size: 20px;
+    }
+}
