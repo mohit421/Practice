@@ -1,6 +1,6 @@
 body{
    margin:0;
-   background: hsl(220, 15%, 55%);
+   background: hsl(212, 45%, 89%);
    font-family: 'Red Hat Display', sans-serif;
 }
 main{
@@ -30,7 +30,7 @@ main{
 .card-item{
     background: rgb(247, 243, 243);
     width: 25%;
-    height: 80vh;
+    height: 82vh;
     border-radius: 15px;
 }
 
@@ -50,7 +50,7 @@ footer{
 @media only screen and (max-width: 1440px) and (min-width: 1380px){
     .card-item{
         width: 24%;
-        height: 66vh;
+        height: 64vh;
     }
     .main-img{
         padding: 22px 14px 7px;
