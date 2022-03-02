@@ -1,0 +1,271 @@
+body{
+    margin:0;
+    font-size: 18px;
+    background:hsl(217, 54%, 11%);
+}
+
+.card{
+    width: 26%;
+    height: 96vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 125px;
+    position: relative;
+    background: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 2px 5px 9px;
+}
+ 
+.main-img{
+    width: 87%;
+    border-radius: 9px;
+    position: relative;
+    top: 20px;
+}
+
+h1{
+    position: relative;
+    /* float: left; */
+    right: 29px;
+    margin-top: 36px;
+    color: #fff;
+    font-size: 29px;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.main-description{
+    position: relative;
+    right: 7px;
+    color: #8f8f8f;
+}
+.card-time{
+    position: relative;
+    margin-top: 35px;
+    right: 33px;
+    font-size: 15px;
+} 
+.card-time .eth{
+    position: relative;
+    right: 70px;
+    bottom: 7px;
+    color: hsl(178, 100%, 50%);
+    
+}
+.card-time .time{
+    position: absolute;
+    top: -21px;
+    right: -2px;
+    color: #8f8f8f;
+}
+
+hr{
+    width: 84%;
+}
+.avatar-image{
+    width: 9%;
+    float: left;
+    position: relative;
+    left: 31px;
+    top: 13px;
+}
+.card-footer-text{
+    position: relative;
+    right: 10px;
+    bottom: -8px;
+
+} 
+
+.span{
+    color: #fff;
+    padding-left: 5px;
+}
+
+.span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{
+    margin-top: 213px;
+}
+
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1380px){
+    .card{
+        width: 32%;
+        height: 65vh;
+    }
+    h1{
+        right: 74px;
+        
+    }
+    .main-description{
+        right: 49px;
+    }
+    .card-time {
+        right: 76px;
+    }
+    .card-time .time{
+        right: -35px;
+    }
+    hr{
+        width: 85%;
+    }
+    .card-footer-text{
+        position: relative;
+        right: 32px;
+        bottom: -11px;
+        font-size: 20px;
+    }
+    .avatar-image{
+        left: 39px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .card{
+        width: 35%;
+        height: 79vh;
+    }
+}
+    
+
+@media only screen and (max-width: 768px) and (min-width: 425px){
+    h1{
+        right: 4px;
+    }
+    .card{   
+        width: 39%;
+        height: 72vh;
+
+    
+    }
+    .main-description{
+        right: -2px;
+        font-size: 16px;
+    }
+    .card-time .eth{ 
+        right: 50px;
+        bottom: 0px;
+
+    }
+    .card-time .time{
+        top: -14px;
+        right: -8px;
+
+    }
+    .avatar-image{
+        left: 21px;
+        top: 6px;
+    }
+    .card-footer-text{
+        right: 2px;
+        bottom: -1px;
+        font-size: 16px;    
+    }
+    
+}
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    h1{
+        right: 4px;
+    }
+    .card{
+        width: 69%;
+        height: 96vh;
+    }
+    .main-description{
+        right: -2px;
+        font-size: 16px;
+    }
+    .card-time .eth{ 
+        right: 50px;
+        bottom: 0px;
+
+    }
+    .card-time .time{
+        top: -14px;
+        right: -8px;
+
+    }
+    .avatar-image{
+        left: 21px;
+        top: 6px;
+    }
+    .card-footer-text{
+        right: 2px;
+        bottom: -1px;
+        font-size: 16px;    
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px){
+    h1{
+        right: 4px;
+    }
+    .card{
+        width: 78%;
+        height: 96vh;
+    }
+    .main-description{
+        right: -2px;
+        font-size: 16px;
+    }
+    .card-time .eth{ 
+        right: 50px;
+        bottom: 0px;
+
+    }
+    .card-time .time{
+        top: -14px;
+        right: -8px;
+
+    }
+    .avatar-image{
+        left: 21px;
+        top: 6px;
+    }
+    .card-footer-text{
+        right: 2px;
+        bottom: -1px;
+        font-size: 16px;    
+    }
+}
+
+@media only screen and (max-width: 320px){
+    h1{
+        right: 4px;
+    }
+    .card{
+        width: 89%;
+        height: 95vh;
+    }
+    .main-description{
+        right: -2px;
+        font-size: 16px;
+    }
+    .card-time .eth{ 
+        right: 50px;
+        bottom: 0px;
+
+    }
+    .card-time .time{
+        top: -16px;
+        right: -10px;
+
+    }
+    .avatar-image{
+        left: 21px;
+        top: 6px;
+    }
+    .card-footer-text{
+        right: 2px;
+        bottom: -1px;
+        font-size: 16px;    
+    }
+}
