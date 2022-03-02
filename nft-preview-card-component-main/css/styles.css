@@ -5,8 +5,9 @@ body{
 }
 
 .card{
-    width: 26%;
-    height: 96vh;
+    /* width: 26%; */
+    width: 22rem;
+    height: 94vh;
     text-align: center;
     margin: auto;
     margin-top: 125px;
@@ -22,8 +23,26 @@ body{
     border-radius: 9px;
     position: relative;
     top: 20px;
+    opacity:1;
+    /* z-index: -1; */
 }
 
+.main-img:hover{
+    opacity: 0.3;
+    background: hsl(178,100%,50%);
+}
+.card-img .middle img{
+    position: absolute;
+    position: absolute;
+    top: 121px;
+    left: 121px;
+    z-index: -1;
+}
+.middle img:hover{
+    position: relative;
+    opacity:1;
+    /* z-index: 1; */
+}
 h1{
     position: relative;
     /* float: left; */
@@ -140,7 +159,7 @@ hr{
     }
     .card{   
         width: 39%;
-        height: 72vh;
+        height: 73vh;
 
     
     }
