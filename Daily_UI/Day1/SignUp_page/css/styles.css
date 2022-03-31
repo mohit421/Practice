@@ -1,0 +1,31 @@
+body{
+    padding:0;
+}
+
+.leftctn{
+    text-align: right;
+    padding-right: 0;
+    position: relative;
+    right: -13px;
+}
+
+.bckgrd{
+    background: rgb(34, 33, 33);
+    color: #fff;
+}
+.rightctn{
+    text-align: left;
+    position: relative;
+    top: 170px;
+    left: 52px;
+    
+}
+
+.card{
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+}
+
